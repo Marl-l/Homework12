@@ -14,9 +14,23 @@ $ (document).ready(function(){
       },
 
       autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
+        delay: 5000,
+        disableOnInteraction: false,
+      },
     });
-    
+
+    const swiper = new Swiper('.review .swiper-container', {
+    // Optional parameters
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination2',
+      clickable: true,
+    },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+    });
 });
