@@ -129,7 +129,7 @@ img {
    position: relative;
 }
 
-.header li:not(:last-child):after {
+header li:not(:last-child):after {
    content: '';
    position: absolute;
    width: 2px;
@@ -241,6 +241,17 @@ img {
    max-width: none;
 }
 
+.col-50 {
+   width: 50%;
+   flex-grow: 1;
+   position: relative;
+   overflow: hidden;
+}
+
+.col-100 {
+   width: 100%;
+}
+
 .col-66 img {
    position: absolute;
    left: 50%;
@@ -306,7 +317,7 @@ img {
    transform: translateX(-50%);
 }
 
-.image-block img {
+.full-image {
    position: absolute;
    left: 50%;
    top: 50%;
@@ -316,10 +327,108 @@ img {
    max-width: none;
 }
 
-.swiper-button-next:after, .swiper-button-prev:after {
-   color:  #64c29e;
+.shop .row .row [class^="col-"] {
+   height: 267px;
+   position: relative;
+   overflow: hidden;
 }
 
-:root {
-   --swiper-theme-color: #64c29e;
+.shop [class^='col-'] a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.shop [class^='col-'] a:before {
+   content: '';
+   opacity: 0;
+   background-color: rgba(100, 194, 158, 0.8);
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   transition: 0.3s;
+   z-index: 5;
+}
+
+.shop [class^='col-'] a:hover:before {
+   opacity: 1;
+}
+
+.shop [class^='col-'] a:hover .shop-now {
+   opacity: 1;
+}
+
+#shop .full-height {
+   height: 100%;
+}
+
+.shop .shop-now {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 700;
+   font-size: 14px;
+   opacity: 0;
+   transition: 0.3s;
+   z-index: 10;
+}
+
+.shop-now img {
+   height: 30px;
+   margin: 0 0 10px;
+}
+
+/*STYLE END*/
+
+.swiper-pagination-bullet-active {
+   background:  #64c29e;
+}
+
+.swiper-pagination2 {
+   position: relative;
+   transform: translateY(-100px);
+}
+
+.review .swiper-pagination-bullet {
+   width: 11px;
+   height: 11px;
+   background: #fff;
+   border: 1px solid #000;
+}
+
+.review .swiper-pagination-bullet-active {
+   background: #a9afb3;
+   border: none;
+}
+
+.menu-button {
+    display: none;
+}
+
+.header .mobile-logo {
+   display: none;
+}
+
+.
+
+@media (max-width: 1630px) {
+   .row {
+      margin: 0 -15px;
+   }
+}
+
+@media (max-width: 768px) {
+   
 }

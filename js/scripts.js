@@ -14,7 +14,7 @@ $ (document).ready(function(){
       },
 
       autoplay: {
-        delay: 5000,
+        delay: 3000,
         disableOnInteraction: false,
       },
     });
@@ -26,10 +26,9 @@ $ (document).ready(function(){
     // If we need pagination
     pagination: {
       el: '.swiper-pagination2',
-      clickable: true,
     },
     autoplay: {
-        delay: 5000,
+        delay: 3000,
         disableOnInteraction: false,
       },
     });
