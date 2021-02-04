@@ -1,76 +1,76 @@
 @font-face {
-    font-family: 'lato';
-    src: url('../fonts/lato-bold.eot');
-    src: url('../fonts/lato-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lato-bold.woff2') format('woff2'),
-         url('../fonts/lato-bold.woff') format('woff'),
-         url('../fonts/lato-bold.svg#latobold') format('svg');
-    font-weight: 700;
-    font-style: normal;
+   font-family: 'lato';
+   src: url('../fonts/lato-bold.eot');
+   src: url('../fonts/lato-bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/lato-bold.woff2') format('woff2'),
+      url('../fonts/lato-bold.woff') format('woff'),
+      url('../fonts/lato-bold.svg#latobold') format('svg');
+   font-weight: 700;
+   font-style: normal;
 }
 
 @font-face {
-    font-family: 'lato';
-    src: url('../fonts/lato-italic.eot');
-    src: url('../fonts/lato-italic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lato-italic.woff2') format('woff2'),
-         url('../fonts/lato-italic.woff') format('woff'),
-         url('../fonts/lato-italic.svg#latoitalic') format('svg');
-    font-weight: normal;
-    font-style: italic;
+   font-family: 'lato';
+   src: url('../fonts/lato-italic.eot');
+   src: url('../fonts/lato-italic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/lato-italic.woff2') format('woff2'),
+      url('../fonts/lato-italic.woff') format('woff'),
+      url('../fonts/lato-italic.svg#latoitalic') format('svg');
+   font-weight: normal;
+   font-style: italic;
 }
 
 @font-face {
-    font-family: 'lato';
-    src: url('../fonts/lato-regular.eot');
-    src: url('../fonts/lato-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lato-regular.woff2') format('woff2'),
-         url('../fonts/lato-regular.woff') format('woff'),
-         url('../fonts/lato-regular.svg#latoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+   font-family: 'lato';
+   src: url('../fonts/lato-regular.eot');
+   src: url('../fonts/lato-regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/lato-regular.woff2') format('woff2'),
+      url('../fonts/lato-regular.woff') format('woff'),
+      url('../fonts/lato-regular.svg#latoregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 body {
-    font: 16px/1.25 Lato, Arial, Tahoma, Verdana, sans-serif;
-    color: #848789;
+   font: 16px/1.25 Lato, Arial, Tahoma, Verdana, sans-serif;
+   color: #848789;
 }
 
 ul {
-    list-style: none;
+   list-style: none;
 }
 
 a {
-    text-decoration: none;
+   text-decoration: none;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+   max-width: 100%;
+   height: auto;
 }
 
 .wrapper {
-    overflow: hidden;
-    position: relative;
+   overflow: hidden;
+   position: relative;
 }
 
 .clearfix:after {
-    content: '';
-    display: block;
-    clear: both;
+   content: '';
+   display: block;
+   clear: both;
 }
 
 .container {
-    display: block;
-    max-width: 1630px;
-    padding: 0 15px;
-    margin: 0 auto;
+   display: block;
+   max-width: 1630px;
+   padding: 0 15px;
+   margin: 0 auto;
 }
 
 .header {
@@ -166,10 +166,10 @@ header li:not(:last-child):after {
 }
 
 .col-1 p {
-  font-size: 16px;
-  line-height: 33px;
-  text-align: center;
-  color: #848789;
+   font-size: 16px;
+   line-height: 33px;
+   text-align: center;
+   color: #848789;
 }
 
 .col-review {
@@ -334,11 +334,11 @@ header li:not(:last-child):after {
 }
 
 .shop [class^='col-'] a {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 
 .shop [class^='col-'] a:before {
@@ -390,7 +390,8 @@ header li:not(:last-child):after {
    margin: 0 0 10px;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
    color: #64c29e;
 }
 
@@ -466,7 +467,7 @@ header li:not(:last-child):after {
    font-size: 24px;
    color: #ffffff;
    margin: 0 0 0 8px;
-} 
+}
 
 .contact .send {
    padding: 23px 22px;
@@ -505,6 +506,7 @@ header li:not(:last-child):after {
    font-style: italic;
    color: #848789;
 }
+
 .social li {
    margin: 0 8px;
 }
@@ -531,7 +533,7 @@ header li:not(:last-child):after {
 }
 
 .header .mobile-logo {
-  display: none;
+   display: none;
 }
 
 /* RESPONSiVE */
@@ -548,7 +550,8 @@ header li:not(:last-child):after {
    }
 
    .text-block {
-      padding: 52px 30px 40px;;
+      padding: 52px 30px 40px;
+      ;
    }
 }
 
@@ -558,105 +561,108 @@ header li:not(:last-child):after {
    }
 
    .text-block {
-      padding: 52px 20px 40px;;
+      padding: 52px 20px 40px;
+      ;
    }
 
-   .swiper-button-next:after, .swiper-button-prev:after {
+   .swiper-button-next:after,
+   .swiper-button-prev:after {
       font-size: 30px;
    }
 
    .col-review {
-      padding: 124px 100px 180px;;
+      padding: 124px 100px 180px;
+      ;
    }
 }
 
 @media (max-width: 768px) {
 
    .header .logo {
-   display: none;
+      display: none;
    }
 
    .header .navigation {
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   align-items: center;
-   background: #fff;
-   width: 280px;
-   transition: .3s;
-   z-index: 11;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background: #fff;
+      width: 280px;
+      transition: .3s;
+      z-index: 11;
    }
 
    .header ul {
-   display: block;
-   width: 100%;
+      display: block;
+      width: 100%;
    }
 
    .header li:after {
-   display: none;
+      display: none;
    }
 
    .header a {
-   text-align: right;
-   padding: 10px 0;
+      text-align: right;
+      padding: 10px 0;
    }
 
    .header .mobile-logo {
-   display: block;
-   position: absolute;
-   left: 10px;
-   top: 10px;
-   height: 80px;
-   margin: 0;
+      display: block;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      height: 80px;
+      margin: 0;
    }
 
-   .header .mobile-logo img{
-   height: 100%;
+   .header .mobile-logo img {
+      height: 100%;
    }
 
    .menu-button {
-   display: block;
-   position: absolute;
-   right: 10px;
-   top: 30px;
-   height: 28px;
-   width: 28px;
-   cursor: pointer;
-   z-index: 12;
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 30px;
+      height: 28px;
+      width: 28px;
+      cursor: pointer;
+      z-index: 12;
    }
 
    .menu-button span {
-   width: 100%;
-   height: 2px;
-   position: absolute;
-   top: 13px;
-   left: 0;
-   background: #6dc196;
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      top: 13px;
+      left: 0;
+      background: #6dc196;
    }
 
    .menu-button:before,
    .menu-button:after {
-   content: '';
-   width: 100%;
-   height: 2px;
-   position: absolute;
-   left: 0;
-   top: 0;
-   background: #6dc196;
+      content: '';
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: #6dc196;
    }
 
    .menu-button:after {
-   top: auto;
-   bottom: 0;
+      top: auto;
+      bottom: 0;
    }
 
    .menu-opened .menu-button,
    .menu-opened .navigation {
-   position: fixed;
+      position: fixed;
    }
 
    .menu-opened .navigation {
-   right: 0;
+      right: 0;
    }
 
    .swiper-button-next,
@@ -720,5 +726,15 @@ header li:not(:last-child):after {
 
    .soc {
       order: -1;
+   }
+}
+
+@media (max-width: 480px) {
+   .col-1 {
+      padding: 30px 20px;
+   }
+
+   .col-review {
+      padding: 30px 20px;
    }
 }
