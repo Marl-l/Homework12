@@ -1,35 +1,34 @@
-$ (document).ready(function(){
+$(document).ready(function () {
+  var mySwiper = new Swiper(".swiper-container", {
+    loop: true,
 
-    var mySwiper = new Swiper('.swiper-container', {
-      loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
 
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
 
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+  });
 
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-    });
-
-    const swiper = new Swiper('.review .swiper-container', {
+  const swiper = new Swiper(".review .swiper-container", {
     // Optional parameters
     loop: true,
 
     // If we need pagination
     pagination: {
-      el: '.swiper-pagination2',
+      el: ".swiper-pagination2",
     },
     autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-    });
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+  });
 });
